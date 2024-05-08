@@ -2,15 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: urob
-      url-base: https://github.com/urob
+    - name: jwrunge
+      url-base: https://github.com/jwrunge
   projects:
     - name: zmk
-      remote: urob
+      remote: jwrunge
       revision: main
       import: app/west.yml
-    - name: zmk-helpers
-      remote: urob
-      revision: v2
   self:
     path: config
